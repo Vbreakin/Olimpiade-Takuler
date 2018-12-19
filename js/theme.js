@@ -59,7 +59,7 @@
         nav: true,
         autoplay: false,
         smartSpeed: 1500,
-        dots: true,
+        dots: false,
         responsiveClass: true
       })
     }
@@ -369,3 +369,68 @@
     });
   }
 })(jQuery)
+
+/*---owl carousel---*/
+
+$('#owl-carousel').owlCarousel({
+loop:true,
+margin:10,
+responsiveClass:true,
+responsive:{
+    0:{
+        items:1,
+        nav:true
+    },
+    600:{
+        items:1,
+        nav:false
+    },
+    1000:{
+        items:1,
+        nav:true,
+        loop:false
+    }
+}
+})
+
+$('#owl-carousel2').owlCarousel({
+loop:true,
+margin:10,
+responsiveClass:true,
+responsive:{
+    0:{
+        items:1,
+        nav:true
+    },
+    600:{
+        items:1,
+        nav:false
+    },
+    1000:{
+        items:1,
+        nav:true,
+        loop:false
+    }
+}
+})
+
+$('#owl-carousel3').owlCarousel({
+loop:true,
+margin:10,
+responsiveClass:true,
+responsive:{
+    0:{
+        items:1,
+        nav:true
+    },
+    600:{
+        items:1,
+        nav:false
+    },
+    1000:{
+        items:1,
+        nav:true,
+        loop:false
+    }
+}
+})
