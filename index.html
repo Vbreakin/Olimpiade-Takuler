@@ -41,15 +41,15 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav justify-content-center">
-                            <li class="nav-item active"><a class="nav-link" href="#beranda">Beranda</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#timeline">Timeline</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#hadiah">Hadiah</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#galeri">Galeri</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                            <li class="nav-item" id="nav-active1"><a class="nav-link" href="#beranda">Beranda</a></li>
+                            <li class="nav-item" id="nav-active2"><a class="nav-link" href="#tentang">Tentang</a></li>
+                            <li class="nav-item" id="nav-active3"><a class="nav-link" href="#" id="timeline">Timeline</a></li>
+                            <li class="nav-item" id="nav-active4"><a class="nav-link" href="#" id="hadiah">Hadiah</a></li>
+                            <li class="nav-item" id="nav-active5"><a class="nav-link" href="#galeri">Galeri</a></li>
+                            <li class="nav-item" id="nav-active6"><a class="nav-link" href="#kontak">Kontak</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item"><a href="#pendaftaran" class="primary_btn text-uppercase">Daftar Sekarang!</a></li>
+                            <li class="nav-item"><a href="#" id="pendaftaran" class="primary_btn text-uppercase">Daftar Sekarang!</a></li>
                         </ul>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
             <p class="top_title">- The Event -</p>
             <h2>Event Psychotacular</h2>	
         </div>
-      <div class="row justify-content-md-center" style="width: 100%;">
+      <div class="row justify-content-center" style="width: 100%;">
         <div class="col-lg-3 col-md-3 col-sm-12 col-12">
             <button class="primary_btn text-uppercase custom-btn-option" type="button" onclick="collapse1()" data-aos="fade-up-right" data-aos-duration="500">
                 OLIMPIADE PSYCHOTACULAR
@@ -202,7 +202,7 @@
     <!--==================Collapse 1 Area========================-->
     <div id="collapse1" data-aos="zoom-out-up" data-aos-duration="500">
       <!--================Timeline Area =================-->
-      <section class="section_gap big_features" id="timeline">
+      <section class="section_gap big_features" id="timeline1">
           <div class="container">
               <div class="row justify-content-center">
                   <div class="col-lg-8 text-center">
@@ -275,7 +275,7 @@
       <!--================Timeline Area =================-->
 
       <!--================ Reward Area =================-->
-      <div class="section_gap_top testimonial_area" id="hadiah">
+      <div class="section_gap_top testimonial_area" id="hadiah1">
           <div class="container">
               <div class="row justify-content-center">
                   <div class="col-lg-8 text-center">
@@ -382,7 +382,7 @@
       <!--================ End Testimonial Area =================-->
 
       <!--================Pendaftaran Area===============-->
-      <section class="pendaftaran_area section_gap big_features" id="pendaftaran">
+      <section class="pendaftaran_area section_gap big_features" id="pendaftaran1">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
@@ -438,7 +438,7 @@
     <!--==================Collapse 2 Area========================-->
     <div id="collapse2" data-aos="zoom-out-up" data-aos-duration="500">
         <!--================Timeline Area =================-->
-        <section class="section_gap big_features" id="timeline">
+        <section class="section_gap big_features" id="timeline2">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
@@ -528,7 +528,7 @@
         <!--================Timeline Area =================-->
   
         <!--================ Reward Area =================-->
-        <div class="section_gap_top testimonial_area" id="hadiah">
+        <div class="section_gap_top testimonial_area" id="hadiah2">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
@@ -696,7 +696,7 @@
         <!--================ End Testimonial Area =================-->
         
         <!--================Pendaftaran Area===============-->
-        <section class="pendaftaran_area section_gap big_features" id="pendaftaran">
+        <section class="pendaftaran_area section_gap big_features" id="pendaftaran2">
           <div class="container">
               <div class="row justify-content-center">
                   <div class="col-lg-8 text-center">
@@ -768,21 +768,6 @@
           </div>
         </div>
         <div class="recent_update_inner">
-          <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
-                <span class="lnr lnr-screen"></span>
-                <h6>Photos</h6>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-                aria-selected="false">
-                <span class="lnr lnr-screen"></span>
-                <h6>Video</h6>
-              </a>
-            </li>
-          </ul>
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade active show" id="home" role="tabpanel" aria-labelledby="home-tab">
               <div class="row recent_update_text align-items-center">
@@ -888,8 +873,8 @@
                 <div class="impress_inner">
                     <h2 style="color: #2d266a; font-size: 30px; background-color: white; margin-left: auto; margin-right: auto;">OLIMPIADE PSYCHOTACULAR</h2>
                 </div>
-                <div class="impress_inner" style="text-align: left;">
-                   <p><i class="fas fa-user"></i> CP: Intan (SMA/Sederajat)<br/>
+                <div class="impress_inner" style="text-align: left; line-height: 2;">
+                   <p style="font-size: 14pt;"><i class="fas fa-user"></i> CP: Intan (SMA/Sederajat)<br/>
                    <i class="fas fa-phone"></i> 0838 4583 8567</p>
                 </div>
             </div>
@@ -897,13 +882,13 @@
                 <div class="impress_inner">
                     <h2 style="color: #2d266a; font-size: 30px; background-color: white; margin-left: auto; margin-right: auto;">LKTI PSYCHOTACULAR</h2>
                 </div>
-                <div class="impress_inner" style="text-align: left;">
-                    <p><i class="fas fa-user"></i> CP: Ratna Rama Danti (Mahasiswa D3/S1)<br/>
+                <div class="impress_inner" style="text-align: left; line-height: 2;">
+                    <p style="font-size: 14pt;"><i class="fas fa-user"></i> CP: Ratna Rama Danti (Mahasiswa D3/S1)<br/>
                     <i class="fab fa-whatsapp"></i> WA (0838 3572 8001)<br/>
                     <i class="fab fa-line"></i> Line (@ratnaramadanti)</p>
                 </div>              
-                <div class="impress_inner" style="text-align: left;">
-                    <p><i class="fas fa-user"></i> CP: Dinda Rizqia (SMA/Sederajat)<br/>
+                <div class="impress_inner" style="text-align: left; line-height: 2;">
+                    <p style="font-size: 14pt;"><i class="fas fa-user"></i> CP: Dinda Rizqia (SMA/Sederajat)<br/>
                     <i class="fab fa-whatsapp"></i> WA (0813 3426 1102)<br/>
                     <i class="fab fa-line"></i> Line (@dindarzqw)</p>
                 </div>         
@@ -1023,6 +1008,11 @@
       b=0; 
 
       function collapse1(){
+
+        document.getElementById("timeline").href="#timeline1"; 
+        document.getElementById("hadiah").href="#hadiah1"; 
+        document.getElementById("pendaftaran").href="#pendaftaran1"; 
+
         if (a==0){
         document.getElementById('collapse1').style.height = '100%';
         document.getElementById('collapse2').style.height = '0';
@@ -1037,6 +1027,11 @@
       }
       
       function collapse2(){
+
+        document.getElementById("timeline").href="#timeline2"; 
+        document.getElementById("hadiah").href="#hadiah2"; 
+        document.getElementById("pendaftaran").href="#pendaftaran2"; 
+
         if (b==0){
         document.getElementById('collapse1').style.height = '0';
         document.getElementById('collapse2').style.height = '100%';

@@ -66,7 +66,9 @@ button:focus {
 
 .white_bg {
   background: #fff !important; }
-
+.row{
+  margin-left: 0;
+}
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
@@ -2798,8 +2800,7 @@ h6 {
       margin-top: -10px;
       margin-bottom: 0; }
 .recent_update_inner .tab-content .tab-pane {
-  border: none;
-  padding-top: 80px; }
+  border: none;}
 
 .recent_update_text .col-lg-5 {
   vertical-align: middle;
